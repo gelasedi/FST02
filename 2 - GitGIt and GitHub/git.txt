@@ -27,3 +27,10 @@ git branch [branch_name]
 - Switch to a different Branch
 git checkout [branch_name]
 git switch [branch_name]
+
+- Merge
+- Merge the code to a branch
+git merge [branch_name]
+
+- Delete a branch
+git branch -d [branch_name]
