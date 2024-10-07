@@ -1,0 +1,52 @@
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+/*
+ 4 values - top right bottom left
+ 3 values - top left and right, bottom
+ 2 values - top and bottom, left and right
+ 1 value - all sides
+*/
+.box2 {
+    padding: 20px 30px 40px 50px;
+}
+
+/* Adding margin to each sides */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/*
+ 4 values - top right bottom left
+ 3 values - top left and right, bottom
+ 2 values - top and bottom, left and right
+ 1 value - all sides
+*/
+.box4 {
+    margin: 10px
+}
+
+.mix-borders {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border-style: solid dashed;
+    border-width: 4px 6px 8px 10px;
+}
+
+.circle-container {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50pc;
+    text-align: center;
+    color: blue;
+}

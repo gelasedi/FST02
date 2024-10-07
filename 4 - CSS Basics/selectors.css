@@ -1,0 +1,38 @@
+/* Element Selector */
+span {
+    font-size: 18px;
+    color: blue;
+    background-color: violet;
+}
+
+/* Class Selector */
+.intro-paragraphs {
+    color: green;
+    background-color: pink;
+}
+
+#main-heading {
+    font-weight: bold;
+}
+
+/* Universal Selector */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content {
+    color: orange;
+    text-align: center;
+}
+
+/* Descendant Selector */
+.article-container p {
+    font-style: italic;
+    color: yellow
+}
+
+/* Pseudo-classes */
+a:hover {
+    color: red;
+}

@@ -1,0 +1,55 @@
+#text-styling {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: red;
+
+    /* Font Weight*/
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: light;
+
+    /* Numeric Values */
+    /* [100 - 950] */
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 700;
+
+    /* Font Style */
+    font-style: italic;
+    font-style: normal;
+
+    /* Line Height */
+    line-height: normal;
+    line-height: 1.5;
+
+    /* Letter Spacing */
+    letter-spacing: normal;
+    letter-spacing: 4px;
+}
+
+
+
+#text-decoration {
+    text-decoration: line-through;
+    text-decoration: underline;
+    
+    text-decoration-color: red;
+}
+
+#colors {
+    color: pink;
+    background-color: red;
+}
+
+#absolute-unit-px {
+    font-size: 24px;
+
+}
+
+#relative-unit-em {
+    font-size: 3em;
+}
+
+#relative-unit-rem {
+    font-size: 2rem;
+}
