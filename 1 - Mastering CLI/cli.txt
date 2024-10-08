@@ -21,5 +21,3 @@ touch [file_name.extension]
 
 - Delete a file_name
 rm [file_name.extension]
-
-
