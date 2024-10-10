@@ -1,3 +1,6 @@
+Git 
+Git is a free and open-source version control system that allows developers to track changes made to their code, collaborate with others, and manage different versions of their project. It's a distributed system, meaning that every developer working on a project has a local copy of the entire project history, which makes it easy to collaborate and track changes.
+
 - Configure Git
 git config --global user.name "username"
 git config --global user.email "email"
