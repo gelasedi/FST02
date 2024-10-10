@@ -1,0 +1,24 @@
+#relative {
+    background-color: yellow;
+    position: relative;
+    /* top, right, bottom, left */
+    top: 80px;
+    left: 50px;
+}
+
+#bsolute {
+    background-color: #0cf;
+    position: absolute;
+    bottom: auto;
+    left: 100px;
+}
+
+#fixed {
+    background-color: red;
+    position: fixed;
+}
+
+#sticky {
+    background-color: violet;
+    position: sticky
+}

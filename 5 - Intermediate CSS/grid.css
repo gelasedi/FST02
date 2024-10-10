@@ -1,0 +1,17 @@
+.gridContainer {
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px 200px;
+
+    grid-template-columns: auto auto auto auto;
+
+    grid-area: span;
+    column-gap: 0cap;
+}
+
+@media screen  and  (min-width: 1025px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
